@@ -10,7 +10,7 @@
         (for [[pred val] (map vector preds vals)] (pred val)))))
 
 (defn val-with-predicates
-  "Returns the first val in pred&vals seq where all preds saitsfy args."
+  "Returns the first val in pred&vals seq where all preds satisfy args."
   [pred&vals & args]
   (second
    (first
