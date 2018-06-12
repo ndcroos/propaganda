@@ -1,5 +1,6 @@
 (ns propaganda.generic-operators)
 
+;
 (defn all-preds?
   "Returns true iff (pred vals) is truthy for all preds paired with
   vals."
